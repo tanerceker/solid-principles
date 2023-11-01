@@ -116,7 +116,3 @@ highLevelModule2.execute("Some Data for MongoDB");
 <br/>
 
 Yukarıdaki örnekte, HighLevelModule kodunu değiştirmeden veritabanı bağımlılığını (database dependency) nasıl değiştirebileceğimizi görebilirsiniz. Önce bir MySQLDatabase, daha sonra da bir MongoDBDatabase kullanıyoruz. Bu, Bağımlılık Ters Çevirme İlkesinin (Dependency Inversion Principle) (DIP) sağladığı güç ve esnekliğin mükemmel bir örneğidir.
-
----
-
-— Taner Çeker tarafından hazırlanmıştır.

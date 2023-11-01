@@ -149,7 +149,3 @@ executePayment(payPalProcessor, 300);
 <br/>
 
 Bu tasarım, herhangi bir PaymentProcessor alt türü (subtype) executePayment fonksiyonunda sorun yaratmadan kullanılabildiği için Liskov İkame İlkesine (Liskov Substitution Principle) uygundur. Her işlemcinin (processor) kendine özgü processPayment uygulaması (implementation) vardır, ancak bunların kullanım şeklinin belirli bir alt türe (specific subtype) göre değişmesi gerekmez.
-
----
-
-— Taner Çeker tarafından hazırlanmıştır.

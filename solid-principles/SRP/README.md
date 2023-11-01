@@ -149,7 +149,3 @@ class BlogPostDisplay {
 Artık BlogPost sınıfı yalnızca içerik yönetiminden, BlogPostDisplay sınıfı ise gönderilerin görüntülenmesinden sorumludur. Bu sınıfların her birinin değişmesi için Tek Sorumluluk İlkesine (Single Responsibility Principle) (SRP) uygun tek bir neden vardır.
 
 Bu ayrım, sürdürülebilirliği ve anlaşılabilirliği artırır. Yazıların görüntülenme şeklini değiştirmemiz gerekirse, yalnızca BlogPostDisplay sınıfını değiştirmemiz gerekir. Benzer şekilde, yazıların nasıl yönetildiğini değiştirmemiz gerekirse, yalnızca BlogPost sınıfını değiştirmemiz gerekir. Bu, bir işlevsellik alanındaki değişikliğin yanlışlıkla başka bir alanı etkileme olasılığını azaltır.
-
----
-
-— Taner Çeker tarafından hazırlanmıştır.

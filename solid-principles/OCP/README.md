@@ -121,7 +121,3 @@ class PlatinumCustomer implements Customer {
 <br/>
 
 Bu, SOLID ilkelerindeki Açık-Kapalı İlkesinin (Open-Closed Principle) (OCP) TypeScript kod örneği ile kısa bir açıklamasıdır. Bu ilke, doğru şekilde uygulandığında kodu daha sağlam (robust), esnek (flexible) ve hatalara daha az eğilimli hale getirir.
-
----
-
-— Taner Çeker tarafından hazırlanmıştır.

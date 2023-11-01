@@ -170,7 +170,3 @@ Artık her istemci yalnızca gerçekte kullandıkları arayüzlere (interfaces) 
 Bu, Arayüz Ayrımı İlkesinin (Interface Segregation Principle) (ISP) gerçek dünya senaryosundaki bir uygulamasıdır (application).
 
 Bu tasarım, hangi rollerin hangi yeteneklere sahip olduğunu açıkça (clearly) belirtme avantajına sahiptir ve kodu gelecekteki değişikliklere daha uyarlanabilir hale getirir. Örneğin, yalnızca Admin kullanıcılarının gerçekleştirebileceği yeni bir eylem eklemek istersek, bu eylem için yeni bir arayüz (interface) oluşturabilir ve diğer sınıfların hiçbirini etkilemeden Admin sınıfının bunu uygulamasını (implement) sağlayabiliriz.
-
----
-
-— Taner Çeker tarafından hazırlanmıştır.
