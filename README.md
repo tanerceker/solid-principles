@@ -4,6 +4,8 @@
 
 SOLID, yazılım tasarımlarını daha anlaşılır, esnek ve sürdürülebilir hale getirmeyi amaçlayan beş tasarım ilkesini ifade eden bir kısaltmadır.
 
+Bu ilkeler Robert C. Martin tarafından geliştirilmiştir, Michael Feathers tarafından SOLID adı altında ortaya çıkmıştır ve yazılım geliştirmede yaygın olarak kabul gören en iyi uygulamalardır.
+
 <br/>
 
 ---
@@ -16,9 +18,6 @@ SOLID, yazılım tasarımlarını daha anlaşılır, esnek ve sürdürülebilir 
 
 ![solid-principles.svg](./images/solid-principles.svg)
 
-<br/>
-<br/>
-Bu ilkeler Robert C. Martin tarafından geliştirilmiştir, Michael Feathers tarafından SOLID adı altında ortaya çıkmıştır ve yazılım geliştirmede yaygın olarak kabul gören en iyi uygulamalardır.
 <br/>
 <br/>
 <br/>
