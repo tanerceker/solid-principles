@@ -21,6 +21,7 @@ SOLID, yazılım tasarımlarını daha anlaşılır, esnek ve sürdürülebilir 
 Bu ilkeler Robert C. Martin tarafından geliştirilmiştir, Michael Feathers tarafından SOLID adı altında ortaya çıkmıştır ve yazılım geliştirmede yaygın olarak kabul gören en iyi uygulamalardır.
 <br/>
 <br/>
+<br/>
 
 ## [🔗 SRP — Single Responsibility Principle](https://github.com/tanerceker/solid-principles/tree/main/solid-principles/SRP)
 
@@ -50,6 +51,7 @@ Bu ilke, istemcilerin kullanmadıkları arayüzlere (interfaces) bağımlı olma
 
 Bu ilke, somutlaştırmalara (concretions) değil soyutlamalara (abstractions) bağımlı olunması gerektiğini vurgular. Yüksek seviyeli modüller (High-level modules)
 Düşük seviyeli modüllere (Low-level modules) bağımlı olmamalıdır. Her ikisi de soyutlamalara (abstractions) bağlı olmalıdır. Bu, sistemi daha modüler hale getirerek ölçeklenebilirliği (scalability) teşvik eder ve bağlantıyı (coupling) azaltır.
+<br/>
 <br/>
 <br/>
 
