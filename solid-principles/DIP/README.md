@@ -14,13 +14,13 @@ Bu ilke öncelikle kod modülleri arasındaki bağımlılıkların (dependencies
 
 Bunu biraz daha açalım:
 
-#### **1. Yüksek seviyeli modüller (High-level modules) düşük seviyeli modüllere (low-level modules) bağımlı olmamalıdır. Her ikisi de soyutlamalara (abstractions) bağlı olmalıdır:**
+### **1. Yüksek seviyeli modüller (High-level modules) düşük seviyeli modüllere (low-level modules) bağımlı olmamalıdır. Her ikisi de soyutlamalara (abstractions) bağlı olmalıdır:**
 
 Bu, yüksek seviyeli modüllerin (iş mantığını (business logic) veya kullanım durumlarını (use cases) uygulayan modüller) düşük seviyeli modüllere (bir veritabanına yazma veya HTTP isteklerini işleme (handling HTTP requests) gibi temel, düşük seviyeli işlevleri gerçekleştiren modüller) doğrudan bağlı olmaması veya bunlarla etkileşime girmemesi gerektiğini önermektedir. **Her ikisi de soyutlamalar (abstractions) (arayüzler (interfaces) veya soyut sınıflar (abstract classes) gibi) aracılığıyla etkileşime girmelidir.**
 
 <br/>
 
-#### **2. Soyutlamalar (Abstractions) detaylara bağlı olmamalıdır. Detaylar soyutlamalara bağlı olmalıdır:**
+### **2. Soyutlamalar (Abstractions) detaylara bağlı olmamalıdır. Detaylar soyutlamalara bağlı olmalıdır:**
 
 Bu, soyutlamanın (abstraction) altta yatan uygulama (implementation) hakkında bilgi sahibi olmadığı anlamına gelir. Soyutlama tarafından tanımlanan sözleşmeye (contract) uymak altta yatan detayın (yani arayüzü (interface) uygulayan (implement) sınıfların) sorumluluğundadır.
 

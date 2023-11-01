@@ -8,7 +8,7 @@ Bu İlke, yazılım varlıklarının (sınıflar, modüller, fonksiyonlar, vb.) 
 Bu, bir sisteme mevcut kodunu değiştirmeden yeni özellikler veya işlevsellik ekleyebilmeniz gerektiği anlamına gelir. Nesnenin davranışını genişletebilirsiniz, ancak kaynak kodunu değiştirmemelisiniz.
 <br/>
 
-#### Detaylı Açıklama:
+### Detaylı Açıklama:
 
 - **Genişletmeye açık (Open for extension):** Bu, yazılım varlığının davranışının genişletilebileceği anlamına gelir, yani ona yeni özellikler veya davranışlar ekleyebilmeliyiz.
   <br/>
